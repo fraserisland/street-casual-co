@@ -22,11 +22,11 @@ Tracks is distributed under the terms of the GNU GPL
   line-height: 1.85;
 }
 
-p img{
+/* p img{
   max-height: 600px;
-  max-width: 800px;
+  max-width: 8000px;
   text-align: center;
-}
+} */
 
 .wp-caption-text, .excerpt-meta, .entry-meta, .more-link, .pagination, .further-reading span,
 .further-reading a,
@@ -1202,7 +1202,18 @@ a img {
 /* 700px */
 @media all and (min-width: 43.75em) {
   .entry-container {
-    padding: 0 11.11%;
+    /* padding: 0 11.11%; */
+  }
+
+  p{
+    display: flex;
+    justify-content: center;
+  }
+
+  p img{
+      max-height: 400px;
+      max-width: 600px;
+      display: flex;
   }
 
   .entry-meta,
@@ -1234,8 +1245,15 @@ a img {
     opacity: 0;
   }
 
+  p img{
+      max-height: 400px;
+      max-width: 600px;
+      text-align: center;
+  }
+
   .entry-container {
-    padding: 0 16.66%;
+    text-align: center;
+    margin: 0;
   }
 
   .entry-header h1 {
@@ -1266,8 +1284,13 @@ a img {
     padding-right: 11.11%;
   }
 
+  p img{
+      max-height: 600px;
+      max-width: 800px;
+      text-align: center;
+  }
+
   .entry-container {
-    padding: 0 19.435%;
     position: relative;
   }
 
@@ -1297,7 +1320,6 @@ a img {
 /* 1200px */
 @media all and (min-width: 75em) {
   .entry-container {
-    padding: 0 22.22%;
   }
 
   .entry-content img.full-width {
