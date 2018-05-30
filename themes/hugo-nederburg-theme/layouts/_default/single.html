@@ -8,7 +8,7 @@
   <div id="loop-container" class="loop-container">
     {{ if and (isset .Params "image") .Params.image }}
     <div class="post type-post status-publish format-standard has-post-thumbnail hentry category-design tag-design tag-standard-2 tag-tagalicious tag-travel entry full-without-featured odd excerpt-1">
-      
+
       <div class='featured-image lazy lazy-bg-image' data-background="{{ .Params.image | absURL }}">
       </div>
       {{ else }}
@@ -63,18 +63,18 @@
     </p>
   </nav>-->
 
-  <div class="entry-categories"><p><span>Categories</span>
+  <!-- <div class="entry-categories"><p><span>Categories</span>
     {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
     <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}" title="View all posts in {{ $name }}">{{ $name }}</a>{{ end }}
   </p>
-</div>
+</div> -->
 
 
 
-<div class="entry-tags"><p><span>Tags</span>
+<!-- <div class="entry-tags"><p><span>Tags</span>
   {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
   <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}" title="View all posts tagged {{ $name }}">{{ $name }}</a>
-  {{ end }}
+  {{ end }} -->
 
 <!-- </p></div>	</div>
 {{ if and (isset .Site.Params "author") .Site.Params.author }}
