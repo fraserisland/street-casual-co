@@ -54,6 +54,6 @@ paginate = 5 #frontpage pagination
   weight = 3
 
   [params.social]
-  facebook      = "full profile url in facebook"
-  email         = "email@example.com"
-  instagram     = "full profile url in instagram"
+  facebook      = "https://www.facebook.com/StreetCasualGC/"
+  email         = "streetcasualco@gmail.com"
+  instagram     = "https://www.instagram.com/streetcasualco/"

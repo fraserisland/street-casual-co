@@ -84,8 +84,8 @@ body {
 }
 
 .main {
-  background: #38312f;
-  padding-bottom: 1.5em;
+  background: black;
+  padding: 0;
   margin: 0 auto;
 }
 
@@ -468,6 +468,10 @@ a img {
 .site-title p{
   font-size: 35px;
   text-align: center;
+  color: red;
+}
+.site-title p:hover{
+  cursor: pointer;
 }
 
 .site-title {
@@ -1487,7 +1491,7 @@ li.pingback:first-child {
   clear: both;
 }
 .site-footer a {
-  color: black;
+  color: red;
 }
 .site-footer h1 {
   letter-spacing: 0.06em;
@@ -1528,8 +1532,8 @@ li.pingback:first-child {
 }
 
 .design-credit {
-  background: #110800;
-  color: #8c8c8c;
+  background: black;
+  color: white;
   padding: 0.75em 0;
   margin-top: 48px;
 }
@@ -1903,6 +1907,8 @@ li.pingback:first-child {
 .top-navigation .container {
   margin: 0 auto;
   max-width: 1280px;
+  display: flex;
+  justify-content: center;
 }
 .top-navigation .container:after {
   content: ".";
