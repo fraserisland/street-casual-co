@@ -467,6 +467,7 @@ a img {
 
 .site-title p{
   font-size: 35px;
+  text-align: center;
 }
 
 .site-title {
@@ -521,6 +522,7 @@ a img {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   position: absolute;
+  text-align: center;
   top: 0;
   padding-top: 6em;
   left: 100%;
@@ -648,9 +650,9 @@ a img {
     position: static;
     width: 100%;
     height: auto;
+    text-align: center;
     padding: 0;
     margin: 0;
-    text-align: right;
     min-height: 37px;
   }
   .menu-primary .site-description, .menu-primary-tracks .site-description {
